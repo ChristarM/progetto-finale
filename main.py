@@ -9,6 +9,8 @@ codici_lingua = {"italiano": "it", "inglese": "en", "francese": "fr", "spagnolo"
 
 counter = 0  # Contatore globale utilizzato per creare nomi di file univoci
 
+print("Ciao sono lyla, l'assistente vocale sulal sostenibilità :)")
+
 print("Ecco i comandi possibili:\n-Dammi un consiglio\nCome funziona la raccolta differenziata\nQual è la percentuale di CO2 nel mondo?")
 
 consigli_ambiente = [
@@ -63,7 +65,7 @@ def ascolta_e_riconosci(lingua_input):  # Funzione per ascoltare e riconoscere l
         elif testo.lower() == "come funziona la raccolta differenziata":  # Se il testo è "come funziona la raccolta differenziata"
             print("La raccolta differenziata è un processo di smistamento e raccolta di rifiuti domestici in modo da permettere il riciclo o il trattamento differenziato. Puoi separare i rifiuti in diverse categorie come carta, plastica, vetro e organico per facilitare il processo di smaltimento corretto.")
             return None  # Restituisce None per interrompere il ciclo principale
-        elif testo.lower() == "qual è la percentuale di CO2 nel mondo?":  # Se il testo è "qual è la percentuale di CO2 nel mondo?"
+        elif testo.lower() == "qual è la percentuale di ci o due nel mondo":  # Se il testo è "qual è la percentuale di CO2 nel mondo?"
             print("La percentuale di CO2 nel mondo varia nel tempo e dipende da molteplici fattori come l'attività industriale, il trasporto, l'agricoltura e altri. È una delle principali cause dell'effetto serra e del riscaldamento globale.")
             return None  # Restituisce None per interrompere il ciclo principale
         return testo  # Restituisce il testo riconosciuto
